@@ -53,15 +53,19 @@ nav > ul > li {
 }
 
 .icon{
-	width: 8%;
+	width: 2.5em;
 }
 
 .home{
-	width: 7%;
+	width: 1.5em;
+}
+
+.sklls{
+	width: 2em;
 }
 
 .proj{
-	width: 7%;
+	width: 1.5em;
 	padding-right: 5px;
 }
 
