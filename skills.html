@@ -5,12 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="index.css" type="text/css" />
 		<title>Skills | Portfolio</title>
-		<style>	
-			h1 {
-				font-size: 3em;
-				margin: 20px;
-			}
-
+		<style>
 			h2 {
 				font-size: 2.5em;
 				margin: 20px;
@@ -18,9 +13,9 @@
 				text-decoration: underline;
 			}
 
-			img {
-				width: 68%;
-                margin-bottom: 17px;
+			.skills-image {
+				width: 49%;
+				margin-bottom: 30px;
 			}
 
 			.skills-section {
@@ -34,47 +29,47 @@
 			.bar {
 				background-color: rgb(192, 192, 192);
 				width: 80%;
-                border-radius: 10px;
+				border-radius: 10px;
 			}
 
 			.skill {
-                background-color: #ed7966;
+				background-color: #ed7966;
 				color: white;
 				padding: 1%;
 				text-align: right;
 				font-size: 20px;
-                border-radius: 10px;
+				border-radius: 10px;
 			}
 
-            .each-skill {
-                padding-bottom: 15px;
-            }
+			.each-skill {
+				padding-bottom: 15px;
+			}
 
 			.html {
 				width: 90%;
 			}
 
-            .css {
+			.css {
 				width: 80%;
 			}
 
-            .javascript {
+			.javascript {
 				width: 75%;
 			}
 
-            .react {
+			.react {
 				width: 68%;
 			}
 
-            .c-sharp {
+			.c-sharp {
 				width: 30%;
 			}
-			
-			 .sql {
+
+			.sql {
 				width: 20%;
 			}
-			
-			.resume{
+
+			.resume {
 				margin: 10px;
 			}
 		</style>
@@ -82,21 +77,22 @@
 
 	<body>
 		<header>
+			<div class="navbar">
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="skills.html">Skills</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="contactme.html">Contact</a></li>
+					<li><a href="index.html"><img src="icons/home-icon.png" alt="home-icon" class="home icon"/></a></li>
+					<li><a href="skills.html"><img src="icons/skills-icon.png" alt="skills-icon" class="sklls icon"/></a></li>
+					<li><a href="projects.html"><img src="icons/projects-icon.png" alt="projects-icon" class="proj icon"/></a></li>
+					<li><a href="contactme.html"><img src="icons/contact-icon.png" alt="contact-icon" class="contact icon"/></a></li>
 				</ul>
 			</nav>
+			</div>
 		</header>
 		<main>
 			<article>
 				<h2>Skills</h2>
-				<img src="skillssss.jpeg" alt="" />
+				<img src="images/skills.jpeg" alt="" class="skills-image"/>
 				<div class="skills-section">
-
 					<div class="each-skill">
 						<p>HTML</p>
 						<div class="bar">
@@ -131,7 +127,7 @@
 							<div class="skill c-sharp">30%</div>
 						</div>
 					</div>
-						
+
 					<div class="each-skill">
 						<p>SQL</p>
 						<div class="bar">
@@ -139,10 +135,14 @@
 						</div>
 					</div>
 				</div>
-					
-			<div class="resume">
-			<p><a href="https://drive.google.com/file/d/1LhkgBFPjLyFLQxRAlzgUSmiJJqz0qu8o/view?usp=sharing">Click here </a>to view my resume.</p>
-			</div>				
+
+				<div class="resume">
+					<p>
+						<a
+							href="https://drive.google.com/file/d/1LhkgBFPjLyFLQxRAlzgUSmiJJqz0qu8o/view?usp=sharing"
+							>Click here </a>to view my resume.
+					</p>
+				</div>
 			</article>
 		</main>
 	</body>

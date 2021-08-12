@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" type="text/css">
     <title>Projects | Portfolio</title>
     <style>
-
-        .projects-section{
-            margin-left: 5px
-        }
-
         h2 {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #141850;
             text-decoration: underline;
-            /* margin-left: 20px; */
+            margin: 20px;
         }
 
         h3 {
             font-size: 1.5em;
             color: #303179;
+            margin: 20px;
         }
 
         .heading{
-            margin-left: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
-        img {
+        .proj-img {
             width: 20%;
             margin: 10px;
         }
 
         .desc {
-    color: #ed7966;
-    /* margin: 18px; */
+            color: #ed7966;
+            margin: 20px;
         }
 
         .github {
-            margin-top: 20px;
+            margin: 20px;
         }
 
         .projects-grid {
@@ -53,9 +50,9 @@
             padding-top: 10px;
         }
 
-        /* .project {
+        .project {
             margin: 20px;
-        } */
+        }
 
         .project-title {
             padding-top: 5px;
@@ -68,14 +65,16 @@
 
 <body>
     <header>
+        <div class="navbar">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contactme.html">Contact</a></li>
+                <li><a href="index.html"><img src="icons/home-icon.png" alt="home-icon" class="home icon"/></a></li>
+                <li><a href="skills.html"><img src="icons/skills-icon.png" alt="skills-icon" class="sklls icon"/></a></li>
+                <li><a href="projects.html"><img src="icons/projects-icon.png" alt="projects-icon" class="proj icon"/></a></li>
+                <li><a href="contactme.html"><img src="icons/contact-icon.png" alt="contact-icon" class="contact icon"/></a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <article>
@@ -88,21 +87,21 @@
 
                 <div class="projects-grid">
                     <div class="project">
-                        <img src="calculator...jpeg" alt="calculator">
+                        <img src="images/calculator...jpeg" alt="calculator" class="proj-img">
                         <a href="https://react-calculator-app-blond.vercel.app/" target="_blank" class="project-tile">
                             <p class="project-title">Calculator (React)
                         </a> </p>
                     </div>
 
                     <div class="project">
-                        <img src="todolist.jpeg" alt="todolist">
+                        <img src="images/todolist.jpeg" alt="todolist" class="proj-img">
                         <a href="https://react-todo-app-virid.vercel.app/" target="_blank" class="project-tile">
                             <p class="project-title">Todo list app (React)
                         </a></p>
                     </div>
 
                     <div class="project">
-                        <img src="onscreenkeyboard.png" alt="" class="keyboard">
+                        <img src="images/onscreenkeyboard.png" alt="" class="keyboard">
                         <a href="https://react-onscreen-keyboard.vercel.app/" target="_blank" class="project-tile">
                             <p class="project-title">Onscreen keyboard (React; not optimized for mobile)
                         </a></p>
