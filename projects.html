@@ -25,9 +25,19 @@
             margin-bottom: 10px;
         }
 
+        img{
+            width: 70%;
+        }
+
+        .projects-section{
+            margin-top: 30px;
+        }
+
         .proj-img {
-            width: 20%;
-            margin: 10px;
+            width: 50%;
+            padding-bottom: 10px;
+            margin-left: 5px;
+            margin-top: 20px;
         }
 
         .desc {
@@ -46,17 +56,15 @@
 
         .keyboard {
             width: 60%;
-            padding-left: 0%;
-            padding-top: 10px;
+            margin-top: 20px;
+            padding-bottom: 3px;
         }
 
         .project {
-            margin: 20px;
+            margin: 15px;
         }
 
         .project-title {
-            padding-top: 5px;
-            text-align: left;
             text-decoration: underline;
             
         }
@@ -78,43 +86,42 @@
     </header>
     <main>
         <article>
-            <section id="projects" class="projects-section">
-
                 <h2>Projects</h2>
                 <p class="desc">I create modern and responsive designs for web and mobile.</p>
 
-                <h3 class="heading">Here are some projects I have <br> built so far:</h3>
+                <img src="images/project-image.jpeg" alt="woman-coding">
+
+                <h3 class="heading">Here are some projects I have built so far:</h3>
+
+                <div class="projects-section">
+                <div class="project">
+                    <img src="images/todo-image.jpeg" alt="todolist" class="proj-img">
+                    <a href="https://react-todo-app-virid.vercel.app/" target="_blank" class="project-tile">
+                        <p class="project-title">React Todo List
+                    </a></p>
+                </div>
 
                 <div class="projects-grid">
                     <div class="project">
-                        <img src="images/calculator...jpeg" alt="calculator" class="proj-img">
+                        <img src="images/calculator-image.jpeg" alt="calculator" class="proj-img">
                         <a href="https://react-calculator-app-blond.vercel.app/" target="_blank" class="project-tile">
-                            <p class="project-title">Calculator (React)
+                            <p class="project-title">React Calculator
                         </a> </p>
-                    </div>
+                    </div> 
 
                     <div class="project">
-                        <img src="images/todolist.jpeg" alt="todolist" class="proj-img">
-                        <a href="https://react-todo-app-virid.vercel.app/" target="_blank" class="project-tile">
-                            <p class="project-title">Todo list app (React)
-                        </a></p>
-                    </div>
-
-                    <div class="project">
-                        <img src="images/onscreenkeyboard.png" alt="" class="keyboard">
+                        <img src="images/keyboard-image.jpeg" alt="" class="keyboard">
                         <a href="https://react-onscreen-keyboard.vercel.app/" target="_blank" class="project-tile">
-                            <p class="project-title">Onscreen keyboard (React; not optimized for mobile)
+                            <p class="project-title">React Onscreen Keyboard (not optimized for mobile)
                         </a></p>
                     </div>
+                </div>
                 </div>
 
                 <p class="github">You can find more of my projects in <a
                         href="https://github.com/taiwocodes?tab=repositories" target="_blank"> my GitHub repositories.
                 </p>
                 </a>
-
-
-            </section>
 
         </article>
     </main>

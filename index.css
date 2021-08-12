@@ -47,7 +47,7 @@ header {
 nav > ul > li {
 	display: block;
 	margin: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 	text-align: right;
 	list-style: none;
 }
